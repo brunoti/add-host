@@ -12,12 +12,14 @@ This: ``$ sudo add-host mybeaultifulsite.dev``
 
 Adds this: ``127.0.0.1 mybeaultifulsite.dev`` to your hosts file.
 
+**It's perfect!**
+
 ## Contributing
 Want to contribute? Great!
 
 1. Fork it.
-2. Create a branch (git checkout -b feature/new-feature)
-3. Commit your changes (git commit m "Added new feature")
-4. Push to the branch (git push origin my_markup)
+2. Create a branch ``(git checkout -b feature/new-feature)``
+3. Commit your changes ``(git commit m "Added new feature")``
+4. Push to the branch ``(git push origin feature/new-feature)``
 5. Open a Pull Request
-6. Enjoy a refreshing Diet Coke and wait
+6. Enjoy a good progressive metal song and wait!
