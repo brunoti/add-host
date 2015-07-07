@@ -1,18 +1,34 @@
 # Add Host (add-host)
 
-A simples, very simple, script to add an host to your host file!
+A simple script to add an host to your /etc/hosts file!
 Just because i think that is boring to aways open an editor just to add an single line on this file.
 
-## How to use
-The inital idea just adds the phrase you pass to the script with the default localhost ip: ``127.0.0.1``.  
+## Installing
+``$ npm instal -g add-host``
 
-Install it: ``$ npm instal -g add-host``
+## Usage
+##### Basic usage:
+``add-host -a alias [-i, --ip] [-c, --comment] [-h, --help]``
 
-This: ``$ sudo add-host mybeaultifulsite.dev``  
+##### Example [1]: Add a host with default ip 127.0.0.1
+``add-host -a dummy.dev``
 
-Adds this: ``127.0.0.1 mybeaultifulsite.dev`` to your hosts file.
+##### Example [2]: Add a host setting all values
+``add-host -i 192.168.1.1 -a dummy.dev -c "This is a dummy host"``
+
+##### Example [3]: Getting some help
+``add-host -h, add-host --help``
+
+##### Available [options] are:
+- ``-i, --ip`` OPTIONAL, default: 127.0.0.1 (Set host ip/address)
+- ``-a, --alias`` (Set alias for host)
+- ``-c, --comment`` OPTIONAL (Set comment for added host)
+- ``-h, --help`` (See this beautyful description)
 
 **It's perfect!**
+
+## License
+Add-Host is developed under MIT license.
 
 ## Contributing
 Want to contribute? Great!
