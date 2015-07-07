@@ -1,19 +1,29 @@
 {
-  "name": "add-host",
-  "version": "0.1.0",
-  "description": "A simple script to add a new host to your hosts file.",
-  "main": "index.js",
-  "dependencies": {
-    "is-root": "^1.0.0"
-  },
-  "bin": {
-    "add-host" : "bin/add-host.js" 
-  },
-  "preferGlobal": "true",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Bruno Oliveira (bruno.oliveirati1@gmail.com)",
-  "license": "MIT"
+    "name": "add-host",
+    "version": "0.2.0",
+    "description": "A simple script to add a new host to your hosts file.",
+    "author": "Bruno Oliveira <bruno.oliveirati1@gmail.com>",
+    "contributors" : [{
+        "name" : "Leandro Mangini Antunes",
+        "email" : "leandrowkz@gmail.com"
+    }],
+    "bin": {
+      "add-host" : "bin/add-host.js"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "is-root": "^1.0.0",
+        "parsec": "latest"
+    },
+    "preferGlobal": "true",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT",
+    "keywords" : [
+        "add",
+        "host",
+        "hosts"
+    ]
 }
